@@ -2,8 +2,6 @@ let socket = require('socket.io')(3001),
     express = require('express'),
     http = require('http');
 
-const fs = require('fs');
-
 let app = express();
 
 let httpServer = http.createServer(app);
